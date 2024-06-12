@@ -3,7 +3,7 @@ combine forcefield generator (GAFF) in veloxchem and esp charge with jaguar outp
 # How to use 
 mae = 'er_M1_Co2TCPP_opt_B3LYP-D3_LACVPss.01.mae'  # "*01.mae"\
 charge_column = 7 #default esp output column in *01.mae, *count the first column as 1* \
-charge_column = 7 #please check your *01.mae to find which column is atom_label like(C1,N2...) *count the first column as 1*\
+atom_label_column = 12 #please check your *01.mae to find which column is atom_label (C1,N2...) *count the first column as 1*\
 grofile_name = 'TCPP_lacvpss' \
 residue_name = 'TCP' # 3letters\
 std_thresh = 0.12 #standard deviation threshold which should a reasonable value\
