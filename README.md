@@ -1,8 +1,8 @@
 # ffgen_RESP_mae
 combine forcefield generator (GAFF) in veloxchem and esp charge with jaguar output to generate *xyz and *itp for molecular dynamics running 
 # How to use 
-mae = 'er_M1_Co2TCPP_opt_B3LYP-D3_LACVPss.01.mae'  # "*01.mae"\
-charge_column = 7 #default esp output column in *01.mae, *count the first column as 1* \
+mae = 'er_M1_Co2TCPP_opt_B3LYP-D3_LACVPss.01.mae'   # "*01.mae"\
+charge_column = 7 #default esp output column in *01.mae, *count the first column a s 1* \
 atom_label_column = 12 #please check your *01.mae to find which column is atom_label (C1,N2...) *count the first column as 1*\
 grofile_name = 'TCPP_lacvpss' \
 residue_name = 'TCP' # 3letters\
